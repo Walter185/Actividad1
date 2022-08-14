@@ -4,7 +4,7 @@ body {
 }
 .encabezado{
     margin: 10;
-    padding: 10px;
+    padding: 20px;
     background: transparent;
     display: flex;
     flex-flow: row nowrap;
@@ -89,6 +89,27 @@ color: #ffffff;
     width: 100%;  
     display: flex;
     padding: 10px;
-   margin-bottom: -20px;
     justify-content: center;
+    height: auto;
+    margin: 10px;
+    margin-top: auto;
+}
+#ingredientes, #preparacion {
+    display: flex;
+    background-color: #ffffff;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+}
+#contacto {
+    background-color: #ffffff;
+    font-size: larger;
+    padding: 20px;
+}
+#about{
+    display: flex;
+    background-color: #ffffff;
+    width: 75%;
+    height: auto;
+    padding: 50px;
 }
