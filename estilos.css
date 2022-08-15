@@ -125,6 +125,15 @@ img {
   padding: 10px;
   text-align: left;
 }
+.formulario {
+  display: flex;
+  flex-direction: column;
+  background-color: #aeadad;
+  width: auto;
+  margin-right: 20px;
+  padding: 10px;
+  text-align: left;
+}
 #contacto {
     background-color: #ffffff;
     font-size: larger;

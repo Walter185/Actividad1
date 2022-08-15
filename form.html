@@ -30,14 +30,24 @@
                 </div>
             </nav>
         </header>
-        <menu> 
-        <h1><b><u>La Previa</u></b></h1>
-        <div class="container2"> 
-          <h3>CONTACTENOS</h3>
-          <p id="contacto">Enviame tus sugerencias de recetas de tragos a mi correo:    <a
-            href="mailto:walter.liendo@gmail.com">  walter.liendo@gmail.com</a></p>
-    <br><br><br><br><br><br><br><br><br>
-
+        <menu>
+            <div class="formulario"> 
+            <h2>Formulario de Registro</h2>
+            <form action="show_data.html" target="_blank">
+                <label for="firstname">Nombre: </label> <input type="text" name="firstname" placeholder="Ingrese aqui su nombre.."><br><br>
+                <label for="lastname">Apellido: </label> <input type="text" name="lastname" placeholder="Ingrese aqui su apellido.."><br><br>
+                <label for="street">Dirección: </label> <input type="text" name="street" placeholder="Ingrese aqui su dirección.."><br><br>
+                <label for="city">Ciudad: </label> <input type="text" name="city" placeholder="Ingrese aqui su ciudad.."><br><br>
+                <label for="zipcode">Codigo Postal: </label> <input type="text" name="zipcode" placeholder="Ingrese aqui su código postal.."><br><br>
+                <label for="birthDate">Fecha de Nacimiento (dd-mm-yyyy) </label> <input type="text" name="birthDate"><br><br>     
+                <p>Género
+                    <input type="radio" name="gender" value="hombre" checked>Hombre
+                    <input type="radio" name="gender" value="mujer" checked>Mujer
+                    <input type="radio" name="gender" value="noBinario" checked>No Binario
+                </p>       
+                <input type="submit" value="Enviar">
+            </form>
+            </div>
         </menu>
         <footer" id="footer">
         <div class="card mat-card ml-auto" id="footer">
@@ -55,6 +65,7 @@
                 <p>Design by Walter Liendo - Copyright © 2022  -</p></div>
           </div>
         </footer>
+    </div>
 </body>
 
 </html>
