@@ -90,6 +90,21 @@ color: #ffffff;
     margin: 10px;
     margin-top: auto;
 }
+#footer img {
+
+    display: inline-block;
+    flex-direction: row;
+    justify-items: auto;
+  }
+  .redes2 {
+    flex-direction: row;
+    text-align: center;
+  }
+  
+img {
+  width: 25px;
+}
+
 #ingredientes{
     display: flex;
     background-color: #aeadad;
