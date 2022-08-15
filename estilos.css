@@ -14,10 +14,12 @@ body {
     font-size: large;
 
 }
-
 .container {
     width: 100%;
     display:inline;
+}
+.container2 {
+  justify-items: center !important;
 }
 #tragos{
     display: flex;
@@ -39,23 +41,16 @@ body {
     color: white;
   }
   h1, h3{
-    display: block;
-   padding: 20px;
+    display: block; 
     color: white;
   }
-  .menu{
-    display: inline;
-  }
+  
+
 
   div ul {
     display: inline;
   }
   
-  #d
-{
-width : 660;
-border:1px;
-}
 
 .img {
 margin:3px;
@@ -64,6 +59,7 @@ height:200;
 width:200;
 float:left;
 text-align:center;
+display: flex;
 }
 
 .img img {
@@ -94,13 +90,23 @@ color: #ffffff;
     margin: 10px;
     margin-top: auto;
 }
-#ingredientes, #preparacion {
+#ingredientes{
     display: flex;
-    background-color: #ffffff;
-    width: 300px;
+    background-color: #aeadad;
+    width: auto;
     height: auto;
+    margin: 20px;
     padding: 10px;
     text-align: center;
+}
+#preparacion {
+  display: flex;
+  flex-direction: column;
+  background-color: #aeadad;
+  width: auto;
+  margin: 20px;
+  padding: 10px;
+  text-align: left;
 }
 #contacto {
     background-color: #ffffff;
@@ -113,4 +119,8 @@ color: #ffffff;
     width: 75%;
     height: auto;
     padding: 50px;
+}
+#img2{
+width: 70%;
+height: auto;
 }
